@@ -8,14 +8,15 @@
 ## 使用方法：
 
 </br>
-  通过运行gui_record.py抓取色值点生成脚本</br>
-  生成的json和脚本存储在main/script文件夹中</br>
-  修改config.ini后运行main/main.py</br>
+  1.通过运行gui_record.py抓取色值点生成脚本</br>
+  2.生成的json和脚本存储在main/script文件夹中</br>
+  3.修改config.ini后运行main/main.py</br>
 </br>
 
 ### 可配置的属性：(config.ini)
 
 </br>
+
 ```
 <!--配置项-->
 [File-Path]
@@ -45,6 +46,6 @@
 ### 注意事项：
 
 </br>
-    本项目使用的是色值匹配、多色值匹配及偏移色值匹配。
-    通过将整体流程拆分成各个模块进行识别，因此如果出现重复的色值点请通过拆分模块来避免识别错误。
-    如果需要使用百度OCR需配置APP_ID、API_KEY、SECRET_KEY。
+    1.本项目使用的是色值匹配、多色值匹配及偏移色值匹配。
+    2.通过将整体流程拆分成各个模块进行识别，因此如果出现重复的色值点请通过拆分模块来避免识别错误。
+    3.如果需要使用百度OCR需配置APP_ID、API_KEY、SECRET_KEY。
