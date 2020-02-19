@@ -16,32 +16,34 @@
 ### 可配置的属性：(config.ini)
 
 </br>
-```html
-     <!--配置项-->
-      [File-Path]
-          ;apk包名
-          package_name = 
-      [Screen-Setting]
-          ;模拟器分辨率
-          screen_width = 960
-          screen_height = 540
-          ;坐标偏移范围量
-          DEFAULT_OFFSET = 3
-          ;百度OCR
-          APP_ID = 
-          API_KEY = 
-          SECRET_KEY = 
-      [Script-Setting]
-          ACCOUNT_TYPE = 1
-          RUN_SCRIPT = 
-          RUN_START_MODULE = 0
-          IS_COLUMN = 0
-          IS_DEV = 0
-          IP_NAME = 
-          REPEAT_ERROR = 0
-          EMPTY_ERROR = 0
 ```
+<!--配置项-->
+[File-Path]
+    ;apk包名
+    package_name = 
+[Screen-Setting]
+    ;模拟器分辨率
+    screen_width = 960
+    screen_height = 540
+    ;坐标偏移范围量
+    DEFAULT_OFFSET = 3
+    ;百度OCR
+    APP_ID = 
+    API_KEY = 
+    SECRET_KEY = 
+[Script-Setting]
+    ACCOUNT_TYPE = 1
+    RUN_SCRIPT = 
+    RUN_START_MODULE = 0
+    IS_COLUMN = 0
+    IS_DEV = 0
+    IP_NAME = 
+    REPEAT_ERROR = 0
+    EMPTY_ERROR = 0
+```
+
 ### 注意事项：
+
 </br>
     本项目使用的是色值匹配、多色值匹配及偏移色值匹配。
     通过将整体流程拆分成各个模块进行识别，因此如果出现重复的色值点请通过拆分模块来避免识别错误。
